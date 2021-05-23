@@ -91,4 +91,6 @@ Desde un navegador Ingrese a http://localhost:8080/api/poi para validar la conec
 
 ![Img3.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img3.png)
 
+___
+
 ### BUEN TRABAJO :)
