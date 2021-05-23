@@ -89,6 +89,6 @@ docker run -d \
 
 Desde un navegador Ingrese a http://localhost:8080/api/poi para validar la conectividad de la aplicación POI hacia la Base de Datos.
 
-![Img3.png](/.attachments/Img3-01dd710c-e911-4f15-8f96-d3a5a76e673e.png)
+![Img3.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img3.png)
 
 ### BUEN TRABAJO :)
