@@ -8,7 +8,7 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
 
 Consulte el recurso de Azure Container Registry en Azure Portal para obtener las credenciales del registro.
 
-![Img4.png](/.attachments/Img4-f294a7d1-98dd-442a-a177-d30aa3b3a7af.png)
+![Img4.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img4.png)
 
 ## PASO 1
 
