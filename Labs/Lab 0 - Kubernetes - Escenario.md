@@ -9,7 +9,7 @@ Se ha asignado a su equipo la tarea de modernizar la aplicación y trasladarla a
 
 La aplicación **TripInsights**, que alguna vez fue un monolito, se ha refactorizado en varios microservicios:
 
-![Img1.png](https://webqualitycode.sharepoint.com/:i:/s/Comercial/EeY53AM8A3hAhzN-1wNUKBQBXwMdpJpnfi-MhNClxgq7GA?e=4Pd99n)
+![Img1.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img1.png)
 
 - **Trip Viewer WebApp (.NET Core)**: sus clientes utilizan esta aplicación web para revisar sus puntajes de manejo y viajes. Los viajes se están simulando contra las API dentro del entorno del Laboratorio.
 - **Trip API (Go)**: la aplicación móvil envía los datos de viaje de diagnóstico a bordo (OBD) del vehículo a esta API para que se almacenen.
