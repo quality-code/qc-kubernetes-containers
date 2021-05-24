@@ -22,7 +22,7 @@ Todas las API deben poder acceder a la base de datos SQL proporcionada en su sus
 
 ### Arquitectura Deseada
 
-![Img5.png](/.attachments/Img5-80d40b00-75fe-4432-a48d-0012cdaad7f3.png)
+![Img5.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img5.png)
 
 ## PASO 1 - Crear Cluster AKS
 
@@ -155,7 +155,7 @@ y valide que la implementación halla finalizado exitosamente con la siguiente i
 
 4. Valide el Resultado
 
-![Img7.png](/.attachments/Img7-dc206d15-3cd9-42f4-96ee-9fbc5a004c05.png)
+![Img7.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img7.png)
 
 5. Ejecute la siguiente instrucción para validar si el Microservicio **POI** tiene conectividad con la Base de Datos.
 
@@ -163,7 +163,7 @@ y valide que la implementación halla finalizado exitosamente con la siguiente i
 
 6. Deberá visualizar un resultado como el siguiente:
 
-![Img6.png](/.attachments/Img6-82f85e18-7a16-4de6-8aff-eea3e60557dc.png)
+![Img6.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img6.png)
 
 7. Repita el procedimiento con los demás componentes (**user-java**, **userprofile** y **trips**)
 
@@ -411,7 +411,7 @@ spec:
 
 9. Desde un Navegador acceda a la IP Publica, valide el acceso a la Aplicación Web y luego ingrese a cada menu de la parte superior para garantizar el acceso a las APIs **Userprofile** y **Trips**
 
-![Img8.png](/.attachments/Img8-abcaebe5-bd1f-4dd5-8430-f66ed1dec1d3.png)
+![Img8.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img8.png)
 
 ---
 
