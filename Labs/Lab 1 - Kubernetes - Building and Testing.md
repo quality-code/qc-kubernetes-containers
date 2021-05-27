@@ -48,6 +48,14 @@ docker run -d \
     mcr.microsoft.com/mssql/server:2019-latest
 ```
 
+Luego ejecute el siguiente comando para Crear la Base de Datos.
+
+```
+docker exec sqltestdb ./opt/mssql-tools/bin/sqlcmd \
+    -S localhost -U SA -P 'Quality123.' \
+    -Q "CREATE DATABASE mydrivingDB"
+```
+
 ### PASO 3
 
 Inserte la información de Prueba dentro de la Base de Datos del Contenedor **sqltestdb**
