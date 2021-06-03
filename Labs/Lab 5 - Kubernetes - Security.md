@@ -291,7 +291,7 @@ helm install csi-secrets-store secrets-store-csi-driver/secrets-store-csi-driver
 
 notara un resultado como el siguiente:
 
-![Img15.png](/.attachments/Img15-49ae2afe-be25-41b1-b056-28db00b771e2.png)
+![Img15.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img15.png)
 
 8. En vista de que se requiere integrar una bóveda externa, se ha seleccionado Azure Key Vault para cumplir este requerimiento, por lo tanto debe instalar el **Azure Key Vault provider** por medio del siguiente comando:
 
@@ -301,7 +301,7 @@ notara un resultado como el siguiente:
 
 `kubectl get pods -l app=csi-secrets-store-provider-azure`
 
-![Img16.png](/.attachments/Img16-3605c56d-a9aa-4900-a3cb-647fbdd3f612.png)
+![Img16.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img16.png)
 
 # Proporcione la Identidad para Acceder al Key Vault
 
@@ -472,7 +472,7 @@ kubectl apply -f user-java.yml
 
 `kubectl get pods -n api -l app=poi`
 
-![Img17.png](/.attachments/Img17-853bf8c5-8e43-4cdd-be75-264a9afac0db.png)
+![Img17.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img17.png)
 
 7. Tome el nombre del POD y ejecute la siguiente instrucción para testear el API.
 
@@ -480,10 +480,10 @@ kubectl apply -f user-java.yml
 
 El resultado mostrará los Secrets recuperados desde el **Azure Key Vault**.
 
-![Img18.png](/.attachments/Img18-98bf992a-510d-4103-ba61-30d370a99a3e.png)
+![Img18.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img18.png)
 
 8. Si desea visualizar el valor de alguno de estos secrets, ejecute la siguiente instrucción dentro del POD:
 
-![Img19.png](/.attachments/Img19-7f303755-b053-45e3-bddb-0cd1d87e4382.png)
+![Img19.png](https://github.com/quality-code/qc-kubernetes-containers/blob/master/Labs/Resources/Img19.png)
 
 # Buen Trabajo :) 
