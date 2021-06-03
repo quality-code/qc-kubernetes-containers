@@ -167,7 +167,7 @@ subjects:
 
 4. Puede consultar la **IP del POD** con la siguiente instrucción y observe que corresponde al segmento definido dentro de la **SubNet**:
 
-kubectl get pod -n api -o wide
+`kubectl get pod -n api -o wide`
 
 5. Conectese interactivamente al POD para validar su funcionalidad
 
